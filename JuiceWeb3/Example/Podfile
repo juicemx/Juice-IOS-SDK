@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JuiceWeb3_Example' do
+  pod 'JuiceWeb3', :path => '../'
+
+  target 'JuiceWeb3_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
