@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.platform     = :ios, "9.0"
 
-  s.source_files = 'JuiceWeb3/Classes/**/*'
+  s.source_files = 'JuiceWeb3/JuiceWeb3/Classes/**/*'
   
   s.dependency 'BigInt', '~> 5.2.0'
   s.dependency 'CryptoSwift', '~> 1.3.1'
